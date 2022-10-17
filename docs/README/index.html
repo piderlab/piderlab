@@ -80,6 +80,7 @@ ul {
 }</style></head><body><h1>piderlab</h1>
 <p>https://piderlab.github.io/meta-maintenance/</p>
 <h3>ビルド</h3>
+<p>まず<a href="https://deno.land/">Deno</a>をインストールしてください。</p>
 <pre><code class="language-shell">&gt; deno task lume
 </code></pre>
 <ul>
@@ -92,4 +93,14 @@ ul {
 <li>これでサーバーが建つ。</li>
 </ul>
 <p><a href="./meta-maintenance.jsx">./meta-maintenance.jsx</a>を編集してページを作成してください。</p>
+<h3>フォルダ構成</h3>
+<p>Denoと静的ファイルジェネレーターのlumeを使用しています。中身はPreactとWindi cssで書いてあります。</p>
+<ul>
+<li><code>docs</code>フォルダ：自動生成されたファイルが入ります。触らないでください。</li>
+<li><code>_config.ts</code>：lume設定ファイルです。（プラグインの読み込みなど）</li>
+<li><code>deno.json</code>：Deno設定ファイルです。（コマンドの定義など）</li>
+<li><code>import_map.json</code>：ライブラリ読み込み設定ファイルです。</li>
+<li><code>meta-maintenance.jsx</code>：meta-maintenanceのページのコンテンツです。拡張子をtsxにするとエラーが出るけど来月になったら消えるそうです。</li>
+<li><code>_includes/layouts/main.jsx</code>：ページ間で共通のヘッダーを定義しています。</li>
+</ul>
 </body></html>

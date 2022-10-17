@@ -1,5 +1,9 @@
-export const title = "meta-maintenance";
 export const layout = "layouts/main.jsx";
+
+// ページのタイトル
+export const title = "meta-maintenance";
+// ページの説明
+export const description = "meta-maintenanceについての研究。";
 
 export default (data) => (
   <div class="h-full flex flex-col">
@@ -17,8 +21,17 @@ export default (data) => (
         <li class="list-disc">
           GitHub：
           <a
+            href="https://github.com/piderlab"
+            class="break-all text-blue-500 hover:underline"
+          >
+            https://github.com/piderlab
+          </a>
+        </li>
+        <li class="list-disc">
+          source code for this page：
+          <a
             href="https://github.com/piderlab/piderlab.github.io"
-            class="text-blue-500 hover:underline"
+            class="break-all text-blue-500 hover:underline"
           >
             https://github.com/piderlab/piderlab.github.io
           </a>

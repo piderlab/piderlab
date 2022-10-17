@@ -1,7 +1,7 @@
 export const layout = "layouts/main.jsx";
 
 // ページのタイトル
-export const title = "meta-maintenance";
+export const title = "🔨meta-maintenance";
 // ページの説明
 export const description = "meta-maintenanceについての研究。";
 
@@ -11,7 +11,7 @@ export default (data) => (
       <h1 class="text-3xl">{data.title}</h1>
     </header>
     <main class="flex-grow p-4 bg-gray-100 shadow-inner">
-      <section class="bg-white shadow-lg rounded">
+      <section class="bg-white shadow-lg rounded-sm">
         <h2 class="text-2xl p-2 m-2 border-b-2">meta-maintenance</h2>
         <p class="p-2 m-2">meta-maintenanceのページ</p>
       </section>

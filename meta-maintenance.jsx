@@ -1,4 +1,5 @@
 export const title = "meta-maintenance";
+export const layout = "layouts/main.jsx";
 
 export default (data) => (
   <>

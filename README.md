@@ -17,3 +17,5 @@ https://piderlab.github.io/meta-maintenance/
 ```
 
 - これでサーバーが建つ。
+
+[./meta-maintenance.jsx](./meta-maintenance.jsx)を編集してページを作成してください。

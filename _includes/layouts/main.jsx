@@ -1,4 +1,4 @@
-const THEME_COLOR = "#3B82F6";
+const THEME_COLOR = "#3B82F680";
 
 export default ({ title, children, description }) => (
   <html lang="ja">

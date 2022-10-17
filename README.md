@@ -24,7 +24,7 @@ https://piderlab.github.io/meta-maintenance/
 
 ### フォルダ構成
 
-Denoと静的ファイルジェネレーターのlumeを使用しています。中身はPreactとWindi cssで書いてあります。
+[Deno](https://deno.land/)と静的ファイルジェネレーターの[lume](https://lume.land/)を使用しています。中身は[Preact](https://preactjs.com/)と[Windi CSS](https://windicss.org/)で書いてあります。
 
 - `docs`フォルダ：自動生成されたファイルが入ります。触らないでください。
 - `_config.ts`：lume設定ファイルです。（プラグインの読み込みなど）

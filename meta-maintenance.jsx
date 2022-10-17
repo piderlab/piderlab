@@ -22,7 +22,7 @@ export default (data) => (
           GitHub：
           <a
             href="https://github.com/piderlab"
-            class="break-all text-blue-500 hover:underline"
+            class="break-all text-blue-600 hover:underline"
           >
             https://github.com/piderlab
           </a>
@@ -31,7 +31,7 @@ export default (data) => (
           source code for this page：
           <a
             href="https://github.com/piderlab/piderlab.github.io"
-            class="break-all text-blue-500 hover:underline"
+            class="break-all text-blue-600 hover:underline"
           >
             https://github.com/piderlab/piderlab.github.io
           </a>

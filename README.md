@@ -2,6 +2,8 @@
 
 https://piderlab.github.io/meta-maintenance/
 
+https://meta-maintenance.deno.dev/index.html
+
 ### ビルド
 
 まず[Deno](https://deno.land/)をインストールしてください。
